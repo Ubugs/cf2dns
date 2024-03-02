@@ -135,7 +135,6 @@ def main(cloud):
                         ct_info = []
                         ab_info = []
                         def_info = []
-                        print(ret)
                         for record in ret["data"]["records"]:
                             if record["line"] == "移动":
                                 info = {}
